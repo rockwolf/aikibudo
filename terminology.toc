@@ -25,6 +25,6 @@
 \contentsline {subsection}{\numberline {7.2}基本押さえ技　Kihon osae waza (6 technieken)}{14}
 \contentsline {subsection}{\numberline {7.3}?技 投げ技　Oyo waza nage waza (間 - ??)}{14}
 \contentsline {subsection}{\numberline {7.4}?技 押さえ技　Oyo waza osae waza (間 - ??)}{14}
-\contentsline {section}{\numberline {8}Tenshin Sh\={o}den Katori Shinto Ryu}{15}
+\contentsline {section}{\numberline {8}Tenshin Sh\={o}den Katori Shinto Ry\={u}}{15}
 \contentsline {subsection}{\numberline {8.1}Algemeen}{15}
 \contentsline {subsection}{\numberline {8.2}6de kyu}{15}

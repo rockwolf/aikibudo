@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/Arch Linux) (format=latex 2011.3.4)  9 SEP 2011 19:03
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/Arch Linux) (format=latex 2011.3.4)  9 SEP 2011 22:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -313,14 +313,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-LaTeX Font Info:    Try loading font information for C70+goth on input line 86.
 
-(/usr/share/texmf-dist/tex/latex/cjk/contrib/wadalab/c70goth.fd
-File: c70goth.fd 2008/12/29 4.8.2
-)
-(/usr/share/texmf-dist/tex/latex/cjk/contrib/wadalab/c70goth.fdx
-File: c70goth.fdx 2008/12/29 4.8.2
-)
 Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
@@ -343,12 +336,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--110
 [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
 (./terminology.aux) ) 
 Here is how much of TeX's memory you used:
- 3511 strings out of 493739
- 49298 string characters out of 3148821
+ 3360 strings out of 493739
+ 46058 string characters out of 3148821
  125190 words of memory out of 3000000
- 6741 multiletter control sequences out of 15000+200000
- 21931 words of font info for 81 fonts, out of 3000000 for 9000
+ 6600 multiletter control sequences out of 15000+200000
+ 20921 words of font info for 77 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 35i,8n,35p,366b,564s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,8n,35p,366b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on terminology.dvi (17 pages, 23580 bytes).
+Output written on terminology.dvi (17 pages, 23528 bytes).
