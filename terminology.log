@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/Arch Linux) (format=latex 2011.3.4)  9 SEP 2011 22:10
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/Arch Linux) (format=latex 2011.3.4)  11 SEP 2011 21:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -160,7 +160,11 @@ File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 )
 (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen107
-) (./terminology.aux)
+) (./terminology.aux
+
+LaTeX Warning: Label `dan_2_gen' multiply defined.
+
+)
 \openout1 = `terminology.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -239,8 +243,7 @@ LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
-
-(/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
+ (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
 File: UTF8.bdg 2008/12/29 4.8.2
 )
 (/usr/share/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
@@ -269,79 +272,98 @@ File: img/aikibudo-kanji.eps Graphic file (type eps)
 <img/aikibudo-kanji.eps> [1
 
 
-] (./terminology.toc
+] [2] (./terminology.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 6.
-)
+ [1])
 \tf@toc=\write3
 \openout3 = `terminology.toc'.
 
- [1]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
 
  []
 
 [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
-(./terminology.aux) ) 
-Here is how much of TeX's memory you used:
- 3360 strings out of 493739
- 46058 string characters out of 3148821
- 125190 words of memory out of 3000000
- 6600 multiletter control sequences out of 15000+200000
- 20921 words of font info for 77 fonts, out of 3000000 for 9000
- 714 hyphenation exceptions out of 8191
- 35i,8n,35p,366b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
+Overfull \vbox (46.61928pt too high) has occurred while \output is active []
 
-Output written on terminology.dvi (17 pages, 23528 bytes).
+
+[16] [17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 640--641
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 644.
+
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 644.
+ [19] [20] (./terminology.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3444 strings out of 493739
+ 47522 string characters out of 3148821
+ 125190 words of memory out of 3000000
+ 6675 multiletter control sequences out of 15000+200000
+ 24636 words of font info for 91 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 35i,8n,35p,440b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on terminology.dvi (24 pages, 44364 bytes).
