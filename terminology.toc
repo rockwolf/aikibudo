@@ -38,28 +38,28 @@
 \contentsline {subsubsection}{\numberline {6.3.2}技 Technieken}{13}
 \contentsline {section}{\numberline {7}表技　Omote waza}{14}
 \contentsline {subsection}{\numberline {7.1}基本投げ技　Kihon nage waza (7 technieken)}{14}
-\contentsline {subsection}{\numberline {7.2}基本押え技　Kihon osae waza (6 technieken)}{14}
-\contentsline {subsection}{\numberline {7.3}雄用技投げ技　Oy\={o} waza nage waza (間 - 近間)}{14}
-\contentsline {subsection}{\numberline {7.4}雄用技押え技　Oy\={o} waza osae waza [間 - 近間]}{14}
-\contentsline {subsection}{\numberline {7.5}和の精神　Wa no sei shin}{14}
-\contentsline {subsection}{\numberline {7.6}乱取り Randori}{14}
-\contentsline {subsection}{\numberline {7.7}形大東流 - ？　kata dait\={o} ry\={u} - ikajo}{14}
-\contentsline {section}{\numberline {8}Tenshin Sh\={o}den Katori Shint\={o} Ry\={u}}{15}
-\contentsline {subsection}{\numberline {8.1}Algemeen}{15}
-\contentsline {subsection}{\numberline {8.2}6de ky\={u}}{16}
-\contentsline {subsubsection}{\numberline {8.2.1}構え kamae}{16}
-\contentsline {subsubsection}{\numberline {8.2.2}技 Technieken}{17}
-\contentsline {subsection}{\numberline {8.3}5de ky\={u}}{17}
-\contentsline {subsubsection}{\numberline {8.3.1}kata}{17}
-\contentsline {subsubsection}{\numberline {8.3.2}bo jutsu}{17}
-\contentsline {subsection}{\numberline {8.4}4de ky\={u}}{18}
-\contentsline {subsubsection}{\numberline {8.4.1}kata}{18}
-\contentsline {subsection}{\numberline {8.5}3de ky\={u}}{18}
-\contentsline {subsubsection}{\numberline {8.5.1}kata}{18}
-\contentsline {subsection}{\numberline {8.6}2de ky\={u}}{19}
-\contentsline {subsubsection}{\numberline {8.6.1}kata}{19}
-\contentsline {subsection}{\numberline {8.7}1ste ky\={u}}{19}
-\contentsline {subsubsection}{\numberline {8.7.1}kata}{19}
-\contentsline {subsection}{\numberline {8.8}第一段 1ste dan}{19}
-\contentsline {subsubsection}{\numberline {8.8.1}kata}{19}
-\contentsline {subsubsection}{\numberline {8.8.2}extra}{19}
+\contentsline {subsection}{\numberline {7.2}基本押え技　Kihon osae waza (6 technieken)}{15}
+\contentsline {subsection}{\numberline {7.3}雄用技投げ技　Oy\={o} waza nage waza (間 - 近間)}{16}
+\contentsline {subsection}{\numberline {7.4}雄用技押え技　Oy\={o} waza osae waza (間　-　近間)}{16}
+\contentsline {subsection}{\numberline {7.5}和の精神　Wa no sei shin}{16}
+\contentsline {subsection}{\numberline {7.6}乱取り Randori}{16}
+\contentsline {subsection}{\numberline {7.7}形大東流　-　？　Kata dait\={o} ry\={u} - ikajo}{16}
+\contentsline {section}{\numberline {8}Tenshin Sh\={o}den Katori Shint\={o} Ry\={u}}{17}
+\contentsline {subsection}{\numberline {8.1}Algemeen}{17}
+\contentsline {subsection}{\numberline {8.2}6de ky\={u}}{18}
+\contentsline {subsubsection}{\numberline {8.2.1}構え kamae}{18}
+\contentsline {subsubsection}{\numberline {8.2.2}技 Technieken}{19}
+\contentsline {subsection}{\numberline {8.3}5de ky\={u}}{19}
+\contentsline {subsubsection}{\numberline {8.3.1}kata}{19}
+\contentsline {subsubsection}{\numberline {8.3.2}bo jutsu}{19}
+\contentsline {subsection}{\numberline {8.4}4de ky\={u}}{20}
+\contentsline {subsubsection}{\numberline {8.4.1}kata}{20}
+\contentsline {subsection}{\numberline {8.5}3de ky\={u}}{20}
+\contentsline {subsubsection}{\numberline {8.5.1}kata}{20}
+\contentsline {subsection}{\numberline {8.6}2de ky\={u}}{21}
+\contentsline {subsubsection}{\numberline {8.6.1}kata}{21}
+\contentsline {subsection}{\numberline {8.7}1ste ky\={u}}{21}
+\contentsline {subsubsection}{\numberline {8.7.1}kata}{21}
+\contentsline {subsection}{\numberline {8.8}第一段 1ste dan}{21}
+\contentsline {subsubsection}{\numberline {8.8.1}kata}{21}
+\contentsline {subsubsection}{\numberline {8.8.2}extra}{21}
