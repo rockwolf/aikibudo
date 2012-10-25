@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=latex 2012.10.24)  25 OCT 2012 18:26
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=latex 2012.10.24)  25 OCT 2012 19:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -356,7 +356,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--132
 [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 405.
- [13
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 411.
+
+[13
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -366,8 +371,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] [15
 
-] [16] [17]
-[18] [19]
+] [16] [17] [18] [19]
 Underfull \hbox (badness 10000) in paragraph at lines 803--804
 
  []
@@ -381,16 +385,20 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 807.
  [20] (./terminology.aux)
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3269 strings out of 493489
- 43761 string characters out of 3146914
+ 3276 strings out of 493489
+ 43853 string characters out of 3146914
  103294 words of memory out of 3000000
- 6499 multiletter control sequences out of 15000+200000
- 29977 words of font info for 111 fonts, out of 3000000 for 9000
+ 6505 multiletter control sequences out of 15000+200000
+ 30558 words of font info for 113 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  25i,9n,29p,440b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on terminology.dvi (24 pages, 53444 bytes).
+Output written on terminology.dvi (24 pages, 53860 bytes).
