@@ -1,20 +1,21 @@
-\documentclass[12pt]{scrartcl}
+\documentclass[a4paper, 12pt]{article}
 \usepackage[dutch]{babel}
-\usepackage{CJK}
-\usepackage[CJK, overlap]{ruby}
+\usepackage{CJKutf8}
+\usepackage[CJK, overlap]{ruby} %furigana support
 \usepackage{float}
 \usepackage{graphicx}
 \usepackage{multirow}
 \usepackage{pdflscape}
 \usepackage[left=2cm,top=1cm,right=2cm,bottom=2cm, nohead,nofoot]{geometry}
 
+\renewcommand{\rubysize}{0.5}
 \renewcommand{\rubysep}{-0.2ex}
 
 
 \begin{document}
 
 %%\begin{CJK*}[dnp]{JIS}{min}
-\begin{CJK*}{UTF8}{min}
+\begin{CJK}{UTF8}{min}
 \CJKtilde
 %\CJKcaption{JIS}
 
@@ -91,6 +92,8 @@ Japans heeft dus geen aparte letters, zoals de meeste Westerse alfabetten.\\
 \noindent \textbf{Romaji} is een westerse schrijfwijze van Japanse klanken. Het wordt in Japan ook gebruikt om op een computer te typen.
 Het is deze schrijfwijze, die het mogelijk maakt voor mensen die geen Japans kennen, om Japanse termen correct uit te spreken.
 
+\noindent \textbf{Furigana} zijn kleine symbolen boven de kanji die in hiragana weergeven hoe de kanji moet worden uitgesproken.
+
 \noindent In de tabel hieronder, kan je een overzicht vinden van de verschillende alfabetten, ter verduidelijking van bovenstaande uitleg.\\
 
 \begin{table}[H]
@@ -109,13 +112,13 @@ bestaat niet & か & カ & ka
 
 \noindent De begrippen in dit document, zijn op volgende manier weergegeven:\\
 
-\textit{Nederlandse omschrijving} $|$ \textit{Japanse term [hiragana uitspraak]} $|$ \textit{romaji uitspraak}\\
+\textit{Nederlandse omschrijving} $|$ \textit{Japanse term [met hiragana uitspraak boven de kanji]} $|$ \textit{romaji uitspraak}\\
 
 \noindent De technieken zijn echter te lang om op die manier weer te geven. Zij staan dus onder elkaar:\\
 
 \begin{center}
 \textit{Nederlandse term}\\
-\textit{Japanse term [hiragana uitspraak]}\\
+\textit{Japanse term [met hiragana uitspraak boven de kanji]}\\
 \textit{Romaji uitspraak}
 \end{center}
 
@@ -142,17 +145,17 @@ u: korte $|oe|$ zoals in nen t\textbf{oe}k \textbf{oe}p aa bakkes, vake en m\tex
 \begin{table}[H]
 \begin{center}
 \begin{tabular}{c|c|c}
-basis/oorsprong/standaard & 基本 [きほん] & kihon \\
+basis/oorsprong/standaard & \ruby{基本}{きほん} & kihon \\
 \hline
-de kunst van het veilig vallen & 受身 [うけみ] & ukemi \\
+de kunst van het veilig vallen & \ruby{受身}{うけみ} & ukemi \\
 \hline
-actieve partner & 取り[どり] & dori\\
+actieve partner & \ruby{取り}{どり} & dori\\
 \hline
-controle & 押さえ [おさえ] & osae\\
+controle & \ruby{押}{お}さえ & osae\\
 \hline
-techniek &　技 [わざ] & waza\\
+techniek &　\ruby{技}{わざ} & waza\\
 \hline
-houding & 構え [かまえ] & kamae 
+houding & \ruby{構}{かま}え & kamae 
 \end{tabular}
 \end{center}
 \end{table}
@@ -161,19 +164,19 @@ houding & 構え [かまえ] & kamae
 \begin{table}[H]
 \begin{center}
 \begin{tabular}{c|c|c}
-rechts & 右 [みぎ] & migi \\
+rechts & \ruby{右}{みぎ} & migi \\
 \hline
-links &　左 [ひだり] & hidari\\
+links &　\ruby{左}{ひだり} & hidari\\
 \hline
-achterwaarts & 後ろ[うしろ] & ushiro\\
+achterwaarts & \ruby{後}{うし}ろ & ushiro\\
 \hline
-voorwaarts & 前 [まえ] & mae\\
+voorwaarts & \ruby{前}{まえ} & mae\\
 \hline
-bovenste graad & 上段 [じょうだん] & j\={o}dan\\
+bovenste graad & \ruby{上段}{じょうだん} & j\={o}dan\\
 \hline
-midden & 中段 [ちゅうだん] & ch\={u}dan\\
+midden & \ruby{中段}{ちゅうだん} & ch\={u}dan\\
 \hline
-grond & 土[ど] & do
+grond & \ruby{土}{ど} & do
 \end{tabular}
 \end{center}
 \end{table}
@@ -184,17 +187,17 @@ grond & 土[ど] & do
 \begin{tabular}{c|c|c}
 worp & 投げ [なげ] & nage\\
 \hline
-kopstoot & 頭突き [ずつき] & zutsuki\\
+kopstoot & \ruby{頭突}{ずつ}き & zutsuki\\
 \hline
-trap & 蹴り [けり] & keri\\
+trap & \ruby{蹴}{け}り & keri\\
 \hline
-wurging & 絞殺 [こうさつ] & k\={o}satsu\\
+wurging & \ruby{絞殺}{こうさつ} & k\={o}satsu\\
 \hline
-omkering/terug sturen & 返し [がえし] & gaeshi\\
+omkering/terug sturen & \ruby{返}{がえ}し & gaeshi\\
 \hline
-zijwaartse trap & 横蹴り [よこけり] & yoko keri\\
+zijwaartse trap & \ruby{横蹴}{よこけ}り & yoko keri\\
 \hline
-stoot & 突き [つき] & tsuki
+stoot & \ruby{突}{つ}き & tsuki
 \end{tabular}
 \end{center}
 \end{table}
@@ -203,19 +206,19 @@ stoot & 突き [つき] & tsuki
 \begin{table}[H]
 \begin{center}
 \begin{tabular}{c|c|c}
-lichaam & 体 [たい] & tai \\
+lichaam & \ruby{体}{たい} & tai \\
 \hline
-hand & 手[て] & te \\
+hand & \ruby{手}{て} & te \\
 \hline
-elleboog/elleboogstoot & 肘 [ひじ] & hiji\\
+elleboog/elleboogstoot & \ruby{肘}{ひじ} & hiji\\
 \hline
-knie & 膝 [ひざ] & hiza\\
+knie & \ruby{膝}{ひざ} & hiza\\
 \hline
-pols & 手首 [てくび] & tekubi\\
+pols & \ruby{手首}{てくび} & tekubi\\
 \hline
-onderarm & 小手 [こて] & kote\\
+onderarm & \ruby{小手}{こて} & kote\\
 \hline
-schouder & 肩 [かた] & kata
+schouder & \ruby{肩}{かた} & kata
 \end{tabular}
 \end{center}
 \end{table}
@@ -224,11 +227,11 @@ schouder & 肩 [かた] & kata
 \begin{table}[H]
 \begin{center}
 \begin{tabular}{c|c|c}
-schroef/veer van horloge & 捻子 [ねじ] & neji\\
+schroef/veer van horloge & \ruby{捻子}{ねじ} & neji\\
 \hline
-uitwendig & 表 [おもて] & omote\\
+uitwendig & \ruby{表}{おもて} & omote\\
 \hline
-tabel & 表 [ひょう] & hy\={o}
+tabel & \ruby{表}{ひょう} & hy\={o}
 \end{tabular}
 \end{center}
 \end{table}
@@ -239,15 +242,15 @@ tabel & 表 [ひょう] & hy\={o}
 \begin{tabular}{c|c|c}
 verwijdering van het lichaam & 体捌き [たいさばき] & tai sabaki\\
 \hline
-valtechnieken & 受身技 [うけみわざ] & ukemi waza\\
+valtechnieken & \ruby{受身技}{うけみわざ} & ukemi waza\\
 \hline
-stoottechnieken & 突き技 [つきわざ] & tsuki waza\\
+stoottechnieken & \ruby{突}{つ}き\ruby{技}{わざ} & tsuki waza\\
 \hline
-traptechnieken & 蹴り技 [けりわざ] & keri waza\\
+traptechnieken & \ruby{蹴}{け}り\ruby{技}{わざ} & keri waza\\
 \hline
-? & ? [ほじょうんど] & hojo undo\\
+? & ? ほじょうんど] & hojo undo\\
 \hline
-vrij gevecht & 乱取り [らんどり] & randori
+vrij gevecht & \ruby{乱取}{らんど}り & randori
 \end{tabular}
 \end{center}
 \end{table}
@@ -806,5 +809,5 @@ happo ken (iai goshi)
 \item Kennis van de kobudo termen en de verschillende onderdelen waaruit een katana is opgebouwd
 \end{itemize}
 
-\end{CJK*}
+\end{CJK}
 \end{document}
