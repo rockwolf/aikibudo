@@ -1,3 +1,6 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Imports
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[a4paper, 12pt]{article}
 \usepackage[dutch]{babel}
 \usepackage{CJK}
@@ -8,52 +11,28 @@
 \usepackage{pdflscape}
 \usepackage[left=2cm,top=1cm,right=2cm,bottom=2cm, nohead,nofoot]{geometry}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \renewcommand{\rubysize}{0.5}
 \renewcommand{\rubysep}{-0.1ex}
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start of document + settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
+\input{settings}
 
-%%\begin{CJK*}[dnp]{JIS}{min}
-\begin{CJK*}{UTF8}{min}
-\CJKtilde
-%\CJKcaption{JIS}
-
-%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Title page
-%
-\title{Aikibudo Terminologie}
-\author{Andy Nagels}
-\maketitle
-\thispagestyle{empty} %should remove the page number
-%\pagestyle{empty} %should remove the page number in the whole document
-\begin{figure}[H]
-\centering
-\includegraphics[width=2.5cm]{img/schild_aikibudo.eps}
-\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{titlepage}
 
-\begin{center}
-合気武道
-\end{center}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=1.0cm]{img/aikibudo-kanji.eps}
-\end{figure}
-
-%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Disclaimer
-%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
-\begin{center}
-\textbf{Disclaimer}\\
-De vertalingen in dit document zijn gemaakt door mezelf, m.b.v. offici\"{e}le documenten, moderne technologie en mijn eigen kennis van het Japans. Daar ik echter geen expert ben in de Japanse taal, is het mogelijk dat er fouten staan in dit document. Naarmate mijn kennis van Aikibudo en Japans stijgt, zal ik de nieuwe kennis die ik heb opgedaan dan ook gebruiken om dit document na te kijken en te corrigeren.\\
-Dit document is dus niet als finaal te beschouwen. Het wordt reeds vrijgegeven omdat het kan helpen bij het onthouden van de technieken.
-\end{center}
-\begin{center}
-\textit{{\em Opmerking:} De laatste versie kan gratis gedownload worden van de
-volgende url: http://c.dommel.be/aikibudo.html.}
-\end{center}
+\input{disclaimer}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Table of contents
@@ -64,196 +43,26 @@ volgende url: http://c.dommel.be/aikibudo.html.}
 \tableofcontents
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% General info 
+% General info
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \setcounter{page}{1}
 \pagenumbering{arabic}
 
-% standard it's wadalab mincho, which gives the best results
-%\CJKfamily{gothic}
 \section{Inleiding}
 \noindent Dit document bevat termen die gebruikt worden in aikibudo.
 
 \section{De Japanse taal}
-\noindent Alvorens we de berippen bekijken, dient een korte uitleg gegeven te worden over de Japanse taal.\\
+\input{japanese}
 
-\noindent Japans is opgebouwd uit 3 grote onderdelen: \textit{hiragana, katakana} en \textit{kanji}.\\
-
-\noindent Hiragana en katakana zijn allebei een \textit{phonetisch} alfabet. Dat wil zeggen dat het symbolen voorstelt, die een klank uitbeelden.
-Japans heeft dus geen aparte letters, zoals de meeste Westerse alfabetten.\\
-
-\noindent \textbf{Hiragana} wordt gebruikt om zinnen te vormen en grammatica toe te passen op de Japanse taal. Het toont hoe Japans wordt uitgesproken.\\
-
-\noindent \textbf{Katakana} bevat dezelfde klanken en enkele extra klanken. Het is ontstaan om de verschillende buitenlandse termen te kunnen uitspreken. Zo worden bvb. namen van niet Japanners in katakana geschreven.\\
-
-\noindent \textbf{Kanji} zijn de meer complexe Japanse symbolen, die woorden en begrippen voorstellen. Ook Japanse namen en plaatsnamen worden meestal met kanji geschreven. Om te weten hoe deze symbolen worden uitgesproken, wordt gebruik gemaakt van hiragana, omdat hiragana een phonetisch alfabet is dat klanken in beeld brengt.\\
-
-\noindent \textbf{Romaji} is een westerse schrijfwijze van Japanse klanken. Het wordt in Japan ook gebruikt om op een computer te typen.
-Het is deze schrijfwijze, die het mogelijk maakt voor mensen die geen Japans kennen, om Japanse termen correct uit te spreken.
-
-\noindent \textbf{Furigana} zijn kleine symbolen boven de kanji die in hiragana weergeven hoe de kanji moet worden uitgesproken.
-
-\noindent In de tabel hieronder, kan je een overzicht vinden van de verschillende alfabetten, ter verduidelijking van bovenstaande uitleg.\\
-
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c|c|c|c}
-Nederlands alfabet & Hiragana & Katakana & Romaji\\
-\hline
-a &  あ & ア & a\\
-k & bestaat niet & bestaat niet & bestaat niet\\
-bestaat niet & か & カ & ka
-\end{tabular}
-\end{center}
-\caption{Een kleine vergelijking ter verduidelijking}
-\label{vergelijking_alfabetten}
-\end{table}
-
-\noindent De begrippen in dit document, zijn op volgende manier weergegeven:\\
-
-\textit{Nederlandse omschrijving} $|$ \textit{Japanse term [met hiragana uitspraak boven de kanji]} $|$ \textit{romaji uitspraak}\\
-
-\noindent De technieken zijn echter te lang om op die manier weer te geven. Zij staan dus onder elkaar:\\
-
-\begin{center}
-\textit{Nederlandse term}\\
-\textit{Japanse term [met hiragana uitspraak boven de kanji]}\\
-\textit{Romaji uitspraak}
-\end{center}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Pronunciation
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Uitspraak}
-\noindent Een aantal letters worden iets anders uitgesproken in de romaji uitspraak, t.o.v. het Nederlands.
-Het is interessant om dit even te lezen, om zo geen verkeerde uitspraak te leren voor de techniek.\\
-
-\noindent j: $|zj|$ zoals in strand\textbf{j}anet, \textbf{J}efke, ... (en NIET zoals in \textbf{J}ommeke)\\
-ch: $|tsj|$ zoals in \textbf{tsj}oeke \textbf{tsj}oeke tuut tuut\\
-sh: $|sj|$ zoals in \textbf{ch}oco, \textbf{sh}ampoo, ...\\
-u: korte $|oe|$ zoals in nen t\textbf{oe}k \textbf{oe}p aa bakkes, vake en m\textbf{oe}ke, ...\\
-\={o} of ou: lange $|o|$ zoals in b\textbf{oo}t\\
-\={u} of uu: lange $|u|$ zoals in v\textbf{uu}r
+\input{pronunciation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % General terminology
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Algemene terminologie}
-\subsection{Algemeen}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c|c|c}
-basis/oorsprong/standaard & \ruby{基本}{きほん} & kihon \\
-\hline
-de kunst van het veilig vallen & \ruby{受身}{うけみ} & ukemi \\
-\hline
-actieve partner & \ruby{取り}{どり} & dori\\
-\hline
-controle & \ruby{押}{お}さえ & osae\\
-\hline
-techniek &　\ruby{技}{わざ} & waza\\
-\hline
-houding & \ruby{構}{かま}え & kamae 
-\end{tabular}
-\end{center}
-\end{table}
-
-\subsection{Richtingen en gebieden}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c|c|c}
-rechts & \ruby{右}{みぎ} & migi \\
-\hline
-links &　\ruby{左}{ひだり} & hidari\\
-\hline
-achterwaarts & \ruby{後}{うし}ろ & ushiro\\
-\hline
-voorwaarts & \ruby{前}{まえ} & mae\\
-\hline
-bovenste graad & \ruby{上段}{じょうだん} & j\={o}dan\\
-\hline
-midden & \ruby{中段}{ちゅうだん} & ch\={u}dan\\
-\hline
-grond & \ruby{土}{ど} & do
-\end{tabular}
-\end{center}
-\end{table}
-
-\subsection{Acties}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c|c|c}
-worp & \ruby{投}{な}げ & nage\\
-\hline
-kopstoot & \ruby{頭突}{ずつ}き & zutsuki\\
-\hline
-trap & \ruby{蹴}{け}り & keri\\
-\hline
-wurging & \ruby{絞殺}{こうさつ} & k\={o}satsu\\
-\hline
-omkering/terug sturen & \ruby{返}{がえ}し & gaeshi\\
-\hline
-zijwaartse trap & \ruby{横蹴}{よこけ}り & yoko keri\\
-\hline
-stoot & \ruby{突}{つ}き & tsuki
-\end{tabular}
-\end{center}
-\end{table}
-
-\subsection{Lichaamsdelen}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c|c|c}
-lichaam & \ruby{体}{たい} & tai \\
-\hline
-hand & \ruby{手}{て} & te \\
-\hline
-elleboog/elleboogstoot & \ruby{肘}{ひじ} & hiji\\
-\hline
-knie & \ruby{膝}{ひざ} & hiza\\
-\hline
-pols & \ruby{手首}{てくび} & tekubi\\
-\hline
-onderarm & \ruby{小手}{こて} & kote\\
-\hline
-schouder & \ruby{肩}{かた} & kata
-\end{tabular}
-\end{center}
-\end{table}
-
-\subsection{Andere begrippen}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c|c|c}
-schroef/veer van horloge & \ruby{捻子}{ねじ} & neji\\
-\hline
-uitwendig & \ruby{表}{おもて} & omote\\
-\hline
-tabel & \ruby{表}{ひょう} & hy\={o}
-\end{tabular}
-\end{center}
-\end{table}
-
-\subsection{Leerstof}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c|c|c}
-    verwijdering van het lichaam & \ruby{体捌}{たいさば}き & tai sabaki\\
-\hline
-valtechnieken & \ruby{受身技}{うけみわざ} & ukemi waza\\
-\hline
-stoottechnieken & \ruby{突}{つ}き\ruby{技}{わざ} & tsuki waza\\
-\hline
-traptechnieken & \ruby{蹴}{け}り\ruby{技}{わざ} & keri waza\\
-\hline
-? & ? [ほじょうんど] & hojo undo\\
-\hline
-vrij gevecht & \ruby{乱取}{らんど}り & randori
-\end{tabular}
-\end{center}
-\end{table}
+\input{tgeneral}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Kyuu techniques
@@ -261,237 +70,53 @@ vrij gevecht & \ruby{乱取}{らんど}り & randori
 \newpage
 \section{級の技 Ky\={u} technieken}
 \subsection{6de ky\={u} [SHOKU]}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c|c}
-    \textbf{verwijdering van het lichaam} & ?\\
-    \textbf{\ruby{体捌}{たいさば}き} & ? [いりみ]\\
-    \textbf{tai sabaki} & irimi\\
-    \cline{2-2}
-    & ?\\
-    & ? [おいりみ]\\
-    & o irimi\\
-    \hline
-    \textbf{valtechnieken} & achterwaarts\\
-    \textbf{\ruby{受身技}{うけみわざ}} & \ruby{後}{うし}ろ\\
-    \textbf{ukemi waza} & ushiro\\
-    \hline
-    \textbf{stoottechnieken} & ?\\
-    \textbf{\ruby{突}{つ}き\ruby{技}{わざ}} & ?\\
-    \textbf{tsuki waza} & ? \\
-    \hline
-\end{tabular}
-\end{center}
-\label{kyuu_6}
-\end{table}
+\input{6kyuu}
 
 \newpage
 \subsection{5de ky\={u} [SHOKU]}
-\subsubsection{Algemeen}
-\subsubsection{技 Technieken}
+\input{5kyuu}
 
 \newpage
 \subsection{4de ky\={u} [CHUKYU]}
-\subsubsection{Algemeen}
-\subsubsection{技 Technieken}
+\input{4kyuu}
 
 \newpage
 \subsection{3de ky\={u} [CHUKYU]}
-\subsubsection{Algemeen}
-\subsubsection{技 Technieken}
+\input{3kyuu}
 
 \newpage
 \subsection{2de ky\={u} [JOKYU]}
-\subsubsection{Algemeen}
-\subsubsection{技 Technieken}
+\input{2kyuu}
 
 \newpage
 \subsection{1ste ky\={u} [JOKYU]}
-\subsubsection{Algemeen}
-\subsubsection{技 Technieken}
+\input{1kyuu}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Dan techniques
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \section{段の技 Dan technieken}
-\subsection{第一段 1ste dan}
-\subsubsection{Algemeen}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c}
-    zwarte gordel/persoon die een rang heeft\\
-    \ruby{有段者}{ゆうだんしゃ}\\
-    y\={u}dansha\\
-    \hline
-    1ste dan\\
-    \ruby{第一段}{だいいちだん}\\
-    daiichi dan
-\end{tabular}
-\end{center}
-\label{dan_1_gen}
-\end{table}
-
-\subsubsection{体捌き Tai sabaki/Verplaatsingen}
-
-\subsubsection{受身技 Ukemi waza/Valtechnieken}
-
-\subsubsection{突きと打ち技 Tsuki to uchi waza/Stoot- en slagtechnieken}
-
-\subsubsection{補助運動 Hojo undo/Ondersteunende beweging}
-
-\subsubsection{掴み型と手ほどき Tsukami kata to te hodoki/Grijp kata en hand bevrijding}
-
-\subsubsection{基本投げ技 Kihon nage waza}
-
-\subsubsection{基本押さえ技 Kihon osae waza}
-
-\subsubsection{1段の技 Technieken 1ste dan}
-TODO: de juiste tabellen hier zetten
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c}
-    ? [ひらき]\\
-    hiraki\\
-    ?\\
-    \hline
-    \ruby{天秤投}{てんびんな}げ\\
-    tenbin nage\\
-    weegschaal worp\\
-    \hline
-    \ruby{螺子小手返}{ねじこてがえ}し\\
-    neji kote gaeshi\\
-    veer/schroef van horloge onderarm omkering
-\end{tabular}
-\end{center}
-\label{dan_1}
-\end{table}
-
-\subsubsection{和の精神 Geest van harmonie}
-
-\subsubsection{型 Kata}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{lcc}
-    Zonder wapen: & test & test \\
-    \hline
-    Met wapen: & test & test
-\end{tabular}
-\end{center}
-\label{kata_dan_1}
-\end{table}
-
-\subsubsection{...}
+\input{1dan}
 
 \newpage
 \subsection{2de dan}
-\subsubsection{Algemeen}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c}
-    \ruby{第二段}{だいにだん}\\
-    daini dan\\
-    2de dan\\
-    \hline
-    \ruby{追加}{ついか}\\
-    tsuika\\
-    aanvullend
-\end{tabular}
-\end{center}
-\label{dan_2_gen}
-\end{table}
-
-\subsubsection{追加の技 Aanvullende technieken}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{ll}
-    ? & ?\\
-    ude garami & ura kataha\\
-    ? & ?\\
-    \hline\\
-    ? & ?\\
-    mae hiki otoshi & hiji gaeshi\\
-    ? & ?\\
-    \hline\\
-    ? & ?\\
-    ushiro hiki otoshi & mae hiji kudaki\\
-    ? & ?\\
-    \hline\\
-    ? & \ruby{肩}{かた}はおとし\\
-    te uchi mata gaeshi & kata ha otoshi\\
-    ? & schouder verliezen\\
-    \hline\\
-    ? & ?\\
-    gyaku te uchi mata gaeshi & mae tobu nage\\
-    ? & ?\\
-    \hline\\
-    ? & ?\\
-    ude kake mae hiki otoshi & ura mae tobu nage\\
-    ? & ?\\
-    \hline\\
-    ? & ?\\
-    gyaku kote gaeshi & do gaeshi\\
-    ? & ?\\
-    \hline\\
-    ? & ?\\
-    ashi tori oshi taoshi & gyaku do gaeshi\\
-    ? & ?\\
-    \hline\\
-\end{tabular}
-\end{center}
-\label{dan_2_gen}
-\end{table}
+\input{2dan}
 
 \newpage
 \subsection{3de dan}
-\subsubsection{Algemeen}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c}
-3de dan\\
-\ruby{第三段}{だいさんだん}\\
-daisan dan
-\end{tabular}
-\end{center}
-\label{dan_3_gen}
-\end{table}
-
-\subsubsection{追加の技 Aanvullende technieken}
+\input{3dan}
 
 \newpage
 \subsection{4de dan}
-\subsubsection{Algemeen}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c}
-3de dan\\
-\ruby{第三段}{だいさんだん}\\
-daisan dan
-\end{tabular}
-\end{center}
-\label{dan_4_gen}
-\end{table}
-
-\subsubsection{追加の技 Aanvullende technieken}
+\input{4dan}
 
 \newpage
 \subsection{5de en 6de dan}
-\subsubsection{Algemeen}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c}
-5de en 6de dan\\
-\ruby{第}{だい}\ruby{五と六}{ごとろく}の\ruby{段}{だん}\\
-daigo to roku no dan
-\end{tabular}
-\end{center}
-\label{dan_5and6_gen}
-\end{table}
-
-\subsubsection{追加の技 Aanvullende technieken}
+\input{5to6dan}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Omote waza 
+% Omote waza
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{表技　Omote waza}
 
@@ -502,51 +127,7 @@ daigo to roku no dan
     \textbf{基本投げ技　Kihon nage waza (7 technieken)}
 \end{center}
 \addcontentsline{toc}{subsection}{\protect 基本投げ技　Kihon nage waza (7 technieken)}
-\begin{table}[H]
-\begin{center}
-\scriptsize
-\begin{tabular}{ccc}
-\multicolumn{3}{c}{pause tussen laten en afstand - lijn van het lichaam}\\
-\multicolumn{3}{c}{間合と間　-　体の線}\\
-\multicolumn{3}{c}{ma ai to ma - tai no sen}\\
-\\
-\ruby{裏横面打}{うらよこめんう}ち & \ruby{向}{むか}え\ruby{倒}{だお}し & \ruby{後受身}{うしろうけみ}\\
-ura yoko men uchi & mukae daoshi & ushiro ukemi\\
-(met) achterkant (vuist) (naar) zijkant van het gezicht slagen & naartoe gaan
-en neerhalen & achterwaartse val\\
-\\
-\ruby{表横面打}{おもてよこめんう}ち & \ruby{四方投}{しほうな}げ &
-\ruby{後}{うしろ}\ruby{受身}{うけみ}\\
-omote yoko men uchi & shih\={o} nage & ushiro ukemi\\
-(met) voorkant (vuist) (naar) zijkant van het gezicht slagen & worp in elke richting & achterwaartse val\\
-\\
-\ruby{突}{つき}\ruby{上段}{じょうだん} & \ruby{行}{ゆ}き\ruby{違}{ちが}え & \ruby{後受身}{うしろうけみ}\\
-tsuki j\={o}dan & yuki chigae & ushiro ukemi\\
-hoge stoot & elkaar kruisen & achterwaartse val\\
-\\
-\ruby{突}{つき}\ruby{中}{ちゅう}\ruby{段}{だん} &
-\ruby{捻}{ねじ}\ruby{小手}{こて}\ruby{返}{がえ}し &
-\ruby{前}{まえ}\ruby{受身}{うけみ}\\
-tsuki ch\={u}dan & neji kote gaeshi & mae ukemi\\
-stoot naar het midden & veer/schroef van horloge onderarm omkering & voorwaartse val\\
-\\
-\ruby{両}{りょう}\ruby{袖}{そで}\ruby{取}{ど}り & \ruby{天秤投}{てんびんな}げ & \ruby{前}{まえ}\ruby{受身}{うけみ}\\
-ry\={o} sode dori & tenbin nage & mae ukemi\\
-beide mouwen vastpakken & weegschaal worp & voorwaartse val\\
-\\
-\ruby{土}{ど}\ruby{足}{そく}\ruby{手}{て}\ruby{取}{ど}り &
-\ruby{鉢}{はち}\ruby{廻}{まわ}し& \ruby{後}{うしろ}\ruby{受身}{うけみ}\\
-do soku te dori & hachi mawashi & ushiro ukemi\\
-shoenen hand actieve partner & hersenpan roteren & achterwaartse val\\
-\\
-\ruby{両}{りょう}\ruby{手}{て}\ruby{取}{ど}り &
-\ruby{腰}{こし}\ruby{投}{な}げ & \ruby{前}{まえ}\ruby{受身}{うけみ}\\ 
-ry\={o} te dori & koshi nage & mae ukemi \\
-beide handen vastpakken & heup worp & voorwaartse val\\
-\end{tabular}
-\end{center}
-\label{kihonnagewaza}
-\end{table}
+\input{kihonnagewaza}
 \end{landscape}
 
 \newpage
@@ -556,48 +137,7 @@ beide handen vastpakken & heup worp & voorwaartse val\\
     \textbf{基本押え技　Kihon osae waza (6 technieken)}
 \end{center}
 \addcontentsline{toc}{subsection}{\protect 基本押え技　Kihon osae waza (6 technieken)}
-\begin{table}[H]
-\begin{center}
-\small
-\begin{tabular}{ccc}
-\multicolumn{3}{c}{pause tussen laten en afstand - lijn van het lichaam}\\
-\multicolumn{3}{c}{間合と間　-　体の線}\\
-\multicolumn{3}{c}{ma ai to ma - tai no sen}\\
-
-\ruby{突}{つき}\ruby{中}{ちゅう}\ruby{段}{だん} & \ruby{後}{うしろ}\ruby{捻}{ねじ} & \ruby{肩}{かた}\ruby{関}{かん}\ruby{節}{せつ}\\
-tsuki ch\={u}dan & ushiro neji kudaki & kata kansetsu\\
-stoot op middenhoogte & in een achterwaartse beweging de elleboog breken & schouder gewricht\\
-\\
-\ruby{両}{りょう}\ruby{手}{て}\ruby{一方}{いっぽう}\ruby{取}{ど}り &
-\ruby{呂}{ろ}\ruby{伏}{ふ}せ & \ruby{肩}{かた}\ruby{関}{かん}\ruby{節}{せつ}\\
-ry\={o} te ipp\={o} dori & rofuse & kata kansetsu\\
-(met) beide hande de actieve partner (in) de andere richting (sturen) & (rug)wervels naar beneden buigen & schouder gewricht\\
-\\
-\ruby{片}{かた}\ruby{袖}{そで}\ruby{取}{ど}り & \ruby{小手}{こて}くだき & \ruby{肩}{かた}\ruby{関}{かん}\ruby{節}{せつ}\\
-kata sode dori & kote kudaki & kata kansetsu\\
-(gi onder de schouder vastpakken) & pols breken & schouder gewricht\\
-\\
-\multicolumn{3}{c}{pause tussen laten en dichtbij - lijn van het lichaam}\\
-\multicolumn{3}{c}{間合と近間　-　体の線}\\
-\multicolumn{3}{c}{ma ai to chikama - tai no sen}\\
-
-\ruby{後}{うしろ}\ruby{片}{かた}\ruby{取}{ど}り & えり\ruby{鰤}{し}め\ruby{行}{ゆ}き\ruby{違}{ちが}え & \ruby{腕}{うで}\ruby{関}{かん}\ruby{節}{せつ}\\
-ushiro kata dori & eri shime yuki chigae & ude kansetsu\\
-achterwaarts schouder actieve partner & kraag vastklemmen elkaar kruisen & arm gewricht\\
-\\
-\ruby{後}{うしろ}\ruby{両}{りょう}\ruby{手}{て}\ruby{取}{ど}り &
-\ruby{四方}{しほう}\ruby{投}{な}げ& \ruby{肩}{かた}\ruby{関}{かん}\ruby{節}{せつ}\\
-ushiro ry\={o} te dori& shih\={o} nage & kata kansetsu\\
-achterwaarts beide handen vastpakken & worp in elke richting & schouder gewricht\\
-\\
-\ruby{後}{うしろ}\ruby{上手}{うわて}\ruby{取}{ど}り &
-\ruby{向}{む}え\ruby{倒}{だお}し& \ruby{肩}{かた}\ruby{関}{かん}\ruby{節}{せつ}\\
-ushiro uwate dori & mukae daoshi & kata kansetsu\\
-achterwaarts bovenste deel (van het lichaam) vastpakken & naartoe gaan en neerhalen & schouder gewricht\\
-\end{tabular}
-\end{center}
-\label{kihonosaewaza}
-\end{table}
+\input{kihonosaewaza}
 \end{landscape}
 
 \newpage
@@ -605,74 +145,31 @@ achterwaarts bovenste deel (van het lichaam) vastpakken & naartoe gaan en neerha
     \textbf{雄用技投げ技　Oy\={o} waza nage waza (間 - 近間)}
 \end{center}
 \addcontentsline{toc}{subsection}{雄用技投げ技　Oy\={o} waza nage waza (間 - 近間)}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c}
-technieken voor mannen werp technieken(ruimte laten - dichtbij)\\
-雄用技投げ技(間　-　近間)\\
-oy\={o} waza nage waza (ma - chikama)\\
-\end{tabular}
-\end{center}
-\label{oyouwazanagewaza}
-\end{table}
+\input{oyouwazanagewaza}
 
 \begin{center}
     \textbf{雄用技押え技　Oy\={o} waza osae waza (間　-　近間)}
 \end{center}
 \addcontentsline{toc}{subsection}{雄用技押え技　Oy\={o} waza osae waza (間　-　近間)}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c}
-technieken voor mannen werp technieken(ruimte laten - dichtbij)\\
-\ruby{雄用}{およう}\ruby{技}{わざ}\ruby{押}{おさ}え\ruby{技}{わざ}(\ruby{間}{ま}　-　\ruby{近間}{ちかま})\\
-oy\={o} waza osae waza (ma - chikama)\\
-\end{tabular}
-\end{center}
-\label{oyouwazaosaewaza}
-\end{table}
+\input{oyouwazaosaewaza}
 
 \begin{center}
     \textbf{和の精神　Wa no sei shin}
 \end{center}
 \addcontentsline{toc}{subsection}{和の精神　Wa no sei shin}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c}
-geest in harmonie\\
-\ruby{和}{わ}の\ruby{精神}{せいしん}\\
-wa no sei shin\\
-\hline
-voorwaarts en achterwaarts - lijn van het lichaam\\
-前 と 後 - 体の線\\
-mae to ushiro - tai no sen
-\end{tabular}
-\end{center}
-\label{wanoseishin}
-\end{table}
+\input{wanoseishin}
 
 \begin{center}
     \textbf{乱取り Randori}
 \end{center}
 \addcontentsline{toc}{subsection}{乱取り Randori}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c}
-vrij gevecht\\
-乱取り[らんどり]\\
-randori\\
-\hline
-zacht gevecht (ruimte laten - lijn van het lichaam)\\
-\ruby{柔}{じゅう}の\ruby{乱取}{らんど}り (\ruby{間}{ま}　-　\ruby{体}{たい}の\ruby{線}{せん}) \\
-j\={u} no randori (ma - tai no sen)
-\end{tabular}
-\end{center}
-\label{randori}
-\end{table}
+\input{randori}
 
 \begin{center}
     \textbf{形大東流　-　？　Kata dait\={o} ry\={u} - ikajo}
 \end{center}
 \addcontentsline{toc}{subsection}{形大東流　-　？　Kata dait\={o} ry\={u} - ikajo}
+\input{daitoryuu}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Katori
@@ -680,18 +177,7 @@ j\={u} no randori (ma - tai no sen)
 \newpage
 \section{Tenshin Sh\={o}den Katori Shint\={o} Ry\={u}}
 \subsection{Algemeen}
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{c}
-de weg van de hemel gewijdt aan de positieve legende van het Katori altaar\\ 
-%TODO: see if the katori furigana are with the correct kanji!
-\ruby{天真}{てんしん}\ruby{正傳}{しょうでん}\ruby{香}{かとり}\ruby{取神}{しんとう}\ruby{道流}{りゅう}\\
-tenshin sh\={o}den katori shint\={o} ry\={u}
-\end{tabular}
-\end{center}
-\label{katori}
-\end{table}
-
+\input{katorigeneral}
 
 \subsection{6de ky\={u}}
 \subsubsection{構え kamae}
