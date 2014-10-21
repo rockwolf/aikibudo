@@ -12,22 +12,25 @@
 \usepackage[left=2cm,top=1cm,right=2cm,bottom=2cm, nohead,nofoot]{geometry}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{array}
-\newcolumntype{s}{>{\centering\arraybackslash}m{1cm}}
-\newcolumntype{B}{>{\centering\arraybackslash}m{4.0cm}}
-\newcolumntype{L}{>{\centering\arraybackslash}m{7.0cm}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Types
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{custom_types}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Commands
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\renewcommand{\rubysize}{0.5}
-\renewcommand{\rubysep}{-0.1ex}
-\newcommand{\tran}[1]{{\itshape{\color{Gray}{#1}}}}
+\input{custom_commands}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Start of document + settings
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 \input{settings}
+\begin{CJK*}{UTF8}{min}
+\CJKtilde
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Title page

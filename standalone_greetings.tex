@@ -1,0 +1,56 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Imports
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper, 12pt]{article}
+\usepackage[dutch]{babel}
+\usepackage{CJK}
+\usepackage[CJK, overlap]{ruby} %furigana support
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{pdflscape}
+\usepackage[left=2cm,top=1cm,right=2cm,bottom=2cm, nohead,nofoot]{geometry}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{array}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Types
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{custom_types}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{custom_commands}
+
+\begin{document}
+\begin{CJK*}{UTF8}{min}
+\CJKtilde
+\begin{landscape}
+\thispagestyle{empty} %should remove the page number
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{c}
+    \ruby{神}{しん}\ruby{前}{ぜん}に\ruby{礼}{れい}\\
+    shinzen ni rei\\
+    \tran{to the shrine, a thanking}\\
+    \tran{?}\\
+    \tran{aan het altaar, een bedanking}\\
+    \hline
+    \ruby{先}{せん}\ruby{生}{せい}に\ruby{礼}{れい}\\
+    sensei ni rei\\
+    \tran{to the master, a thanking}\\
+    \tran{?}\\
+    \tran{aan de meester, een bedanking}\\
+    \hline
+    お\ruby{互}{たが}いに\ruby{礼}{れい}\\
+    otagai ni rei\\
+    \tran{to each other, a thanking}
+    \tran{?}\\
+    \tran{aan de meester, een bedanking}\\
+\end{tabular}
+\end{center}
+\end{table}
+\end{landscape}
+\end{CJK*}
+\end{document}
