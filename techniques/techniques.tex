@@ -1,0 +1,84 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Imports
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper, 12pt]{article}
+\usepackage[dutch]{babel}
+\usepackage{CJK}
+\usepackage[CJK, overlap]{ruby} %furigana support
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{pdflscape}
+\usepackage[left=2cm,top=1cm,right=2cm,bottom=2cm, nohead,nofoot]{geometry}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{array}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Types
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{custom_types}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{custom_commands}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start of document + settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\input{settings}
+\begin{CJK*}{UTF8}{min}
+\CJKtilde
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Table of contents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\setcounter{page}{1}
+\pagenumbering{Roman}
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% General info
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\section{Inleiding}
+\noindent Dit document bevat gedetailleerde techniek-beschrijvingen. Het gaat hier om persoonlijke informatie, zoals ik het begrijp en kan onthouden.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dan techniques
+\subsection{2de dan}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{段の技・Dan technieken}
+\subsection{1ste dan}
+\input{1dan}
+
+\newpage
+\subsection{2de dan}
+\input{2dan}
+
+\newpage
+\subsection{3de dan}
+\input{3dan}
+
+\newpage
+\subsection{4de dan}
+\input{4dan}
+
+\newpage
+\subsection{5de en 6de dan}
+\input{5to6dan}
+
+\end{CJK*}
+\end{document}
