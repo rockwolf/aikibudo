@@ -1,0 +1,60 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Imports
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Note: compile dvi with uplatex katori.tex
+\documentclass[dvipdfmx, a4paper, 12pt]{utarticle}
+%\documentclass{utarticle}
+%\usepackage{color} % requires divpdfmx
+\usepackage{CJK}
+\usepackage[CJK, overlap]{ruby} %furigana support
+%\usepackage{float}
+%\usepackage{graphicx}
+%\usepackage{multirow}
+\usepackage{pdflscape}
+%\usepackage[left=2cm,top=2cm,right=2cm, bottom=2cm, nohead, nofoot]{geometry}
+%\usepackage[usenames,dvipsnames]{color}
+%\usepackage{array}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Types
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{../general/custom_types}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{../general/custom_commands}
+\renewcommand{\rubysize}{0.2}
+\renewcommand{\rubysep}{-0.1ex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start of document + settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{CJK*}{UTF8}{min}
+\CJKtilde
+\begin{landscape}
+\newpage
+\pagestyle{empty}
+\ruby{天真}{てんしん}\ruby{正傳}{しょうでん}\ruby{香}{かとり}\ruby{取神}{しんとう}\ruby{道流}{りゅう}
+\section{\ruby{居合}{いあい}\ruby{術}{じゅつ}\ruby{表}{おもて}\ruby{六箇條}{ろっかじょう}}
+iai jutsu six part table
+\section{} 
+
+\newpage
+\pagestyle{empty}
+\begin{huge}
+天真正傳　tenshin shouden
+香取神道流　katori shinto ryuu
+\end{huge}
+
+\section{テスト}
+君はりんごを食べました。
+君はりんごを食べる
+私はりんごを食べる。
+このインプト凄いですね。
+
+\end{landscape}
+\end{CJK*}
+\end{document}
