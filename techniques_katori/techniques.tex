@@ -1,0 +1,70 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Imports
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper, 12pt]{article}
+\usepackage[dutch]{babel}
+\usepackage{CJK}
+\usepackage[CJK, overlap]{ruby} %furigana support
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{pdflscape}
+\usepackage[left=2cm,top=2cm,right=2cm,bottom=2cm, nohead,nofoot]{geometry}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{array}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Types
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{../general/custom_types}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{../general/custom_commands}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start of document + settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\input{../general/settings}
+\begin{CJK*}{UTF8}{min}
+\CJKtilde
+\setlength\parindent{0pt} %disable autoindent of paragraphs
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Table of contents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\setcounter{page}{1}
+\pagenumbering{Roman}
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% General info
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\section{Inleiding}
+Dit document bevat gedetailleerde techniek-beschrijvingen. Het gaat hier om persoonlijke informatie, zoals ik het begrijp en kan onthouden.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dan techniques
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{初段・1ste dan}
+\input{1dan}
+
+%\newpage
+%\subsection{2de dan}
+%\input{2dan}
+\end{CJK*}
+\end{document}
